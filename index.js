@@ -21,7 +21,7 @@ function updateImages() {
 
 var req = new XMLHttpRequest();
 req.addEventListener("load", updateImages);
-req.open("GET", "images.json");
+req.open("GET", "drive_images.json");
 req.send();
 
 function getRandomImage() {
